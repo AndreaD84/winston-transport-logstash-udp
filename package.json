@@ -1,11 +1,9 @@
 {
-  "name": "winston-transport-logstash-udp",
-  "version": "1.0.0",
+  "name": "winston-transport-udp-logstash",
+  "version": "1.0.2",
   "description": "Winston LogStash UDP transport",
-  "main": "wiston-logstash-udp-transport.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/wiston-logstash-udp-transport.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndreaD84/winston-transport-logstash-udp.git"

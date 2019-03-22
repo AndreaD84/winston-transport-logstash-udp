@@ -8,7 +8,7 @@ module.exports = class LogStashTransports extends Transport {
     super(opts);
     this.host = opts.host;
     this.port = opts.port;
-    this.serverName = options.node_name || os.hostname();
+    this.serverName = opts.node_name || os.hostname();
     this.udpType = opts.udpType === 'udp6' ? 'udp6' : 'udp4';
     this.trailingLineFeed = opts.trailingLineFeed === true;
     this.trailingLineFeedChar = opts.trailingLineFeedChar || os.EOL;

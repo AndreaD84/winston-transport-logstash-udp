@@ -1,0 +1,31 @@
+{
+  "name": "winston-transport-logstash-udp",
+  "version": "1.0.0",
+  "description": "Winston LogStash UDP transport",
+  "main": "wiston-logstash-udp-transport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaD84/winston-transport-logstash-udp.git"
+  },
+  "keywords": [
+    "LogStash",
+    "udp",
+    "Winston",
+    "Logger",
+    "Transport"
+  ],
+  "author": "andrea dutto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreaD84/winston-transport-logstash-udp/issues"
+  },
+  "homepage": "https://github.com/AndreaD84/winston-transport-logstash-udp#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "os": "^0.1.1",
+    "winston-transport": "^4.3.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "winston-transport-udp-logstash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Winston LogStash UDP transport",
   "main": "src/wiston-logstash-udp-transport.js",
   "scripts": {},

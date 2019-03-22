@@ -10,8 +10,6 @@ import { logStashTransport } from 'winston-transport-logstash-udp';
 
 const logger = winston.createLogger({
   level: 'info',
-  format: winston.format.json(),
-  defaultMeta: { service: 'AppNodeName' },
   transports: [
     new logStashTransport({ 
         host: <host>,
